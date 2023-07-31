@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testing1" parallel="methods" thread-count="4">
+<listeners>
+<listener class-name="TestNg.testListerners"></listener>
+</listeners>
+<test name="testin">
+<!-- <parameter name="user" value="standard_user"></parameter>
+<parameter name="passwo" value="secret_sauce"></parameter> -->
+<!-- <groups>
+<run>
+<include name="moto"></include>
+<exclude name="leno"></exclude>
+</run>
+</groups> -->
+<classes>
+<!-- <class name="TestNg.openDiffbrowsers"></class >
+<class name="TestNg.orderofAnnotation"></class >
+<class name="TestNg.TestAnnot"></class > -->
+<!-- <class name="TestNg.paramet"></class > -->
+<class name="TestNg.parallalbrow"></class >
+</classes>
+</test>
+</suite>

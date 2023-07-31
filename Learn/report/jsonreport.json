@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-24T12:47:19.999Z",
+        "line": 3,
+        "name": "validating google search with correct statements",
+        "description": "",
+        "id": "smoke-testing-for-google-search;validating-google-search-with-correct-statements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4994142900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open google and launch the url",
+            "match": {
+              "location": "steps.stepdef.open_google_and_launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337240200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user type value in the search \"Java@com\" and hit enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java@com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.stepdef.user_type_value_in_the_search_and_hit_enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2484250300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should get proper result on screen",
+            "match": {
+              "location": "steps.stepdef.user_should_get_proper_result_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@simplecode"
+          },
+          {
+            "name": "@login1"
+          }
+        ]
+      }
+    ],
+    "name": "smoke testing for google search",
+    "description": "",
+    "id": "smoke-testing-for-google-search",
+    "keyword": "Feature",
+    "uri": "file:featurefile/myapp.feature",
+    "tags": [
+      {
+        "name": "@simplecode",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]

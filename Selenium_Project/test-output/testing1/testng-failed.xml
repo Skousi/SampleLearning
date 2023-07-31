@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [testing1]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="testin(failed)">
+    <classes>
+      <class name="TestNg.parallalbrow">
+        <methods>
+          <include name="softassertion"/>
+          <include name="Hardassertion"/>
+        </methods>
+      </class> <!-- TestNg.parallalbrow -->
+    </classes>
+  </test> <!-- testin(failed) -->
+</suite> <!-- Failed suite [testing1] -->
